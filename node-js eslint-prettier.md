@@ -1,9 +1,9 @@
-#node-js eslint-prettier with airbnb style guide
+# **node-js eslint-prettier with airbnb style guide**
 
 > npm i eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react -D
 
-* .eslintrc
-`json
+**.eslintrc**
+```json
 {
   "extends": [
     "airbnb",
@@ -40,14 +40,12 @@
     ]
   }
 }
+```
 
+ **.prettierrc**
 
-* .prettierrc
-
-`json
+```json
 {
   "singleQuote": true
 }
-
-`
-`
+```
